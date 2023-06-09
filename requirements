@@ -1,0 +1,10 @@
+streamlit
+PyPDF2
+pandas
+re
+numpy
+openpyxl
+matplotlib.pyplot
+matplotlib.offsetbox 
+matplotlib.cbook
+
