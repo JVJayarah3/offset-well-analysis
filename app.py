@@ -72,7 +72,7 @@ def main():
         st.header("PROCESSING")
         st.text("It may take couple of minutes .....")
         for r in result:
-            pdf_reader = PyPDF2.PdfFileReader(r)
+            pdf_reader = PyPDF2.PdfReader(r)
             text = ""
             parent_text = ""
             data = pd.DataFrame()
