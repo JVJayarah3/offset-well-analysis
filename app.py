@@ -79,7 +79,7 @@ def main():
             data1= pd.DataFrame()
             data2= pd.DataFrame()
             for pagenum in range(len(reader.pages)): 
-                pageobj = pdf_reader.getPage(pagenum)
+                pageobj = pdf_reader.PdfFileReader(r)
                 text += pageobj.extract_text() 
                 #print(text)
                 #text= text.replace("\n"," ")
