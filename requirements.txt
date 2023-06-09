@@ -1,7 +1,7 @@
 streamlit
 PyPDF2
 pandas
-re
+regex
 numpy
 openpyxl
 matplotlib.pyplot
